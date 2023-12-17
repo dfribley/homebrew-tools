@@ -1,6 +1,7 @@
 class Aoclb < Formula
   desc "Advent of Code Leaderboard CLI"
   homepage "https://github.com/dfribley/advent-of-code-leaderboard"
+  version "1.1.1"
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/dfribley/advent-of-code-leaderboard/releases/download/v1.1.1/aoclb-osx-x64.tar.gz"
