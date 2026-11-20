@@ -1,3 +1,5 @@
+require "macho"
+
 class Aoclb < Formula
   desc "Advent of Code Leaderboard CLI"
   homepage "https://github.com/dfribley/advent-of-code-leaderboard"
