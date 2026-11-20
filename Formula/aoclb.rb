@@ -6,13 +6,13 @@ class Aoclb < Formula
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/dfribley/advent-of-code-leaderboard/releases/download/v1.2.4/aoclb-osx-x64.tar.gz"
-    sha256 "1faadee31ea6af8388581b5214965e55b1c364cfb3f4aa7eace921b2dfe8797f"
+    sha256 "4abec85802dd74842040b876f17ba4420b4319967f0869354f6adbf6b52e9fcf"
   elsif OS.mac? && Hardware::CPU.arm?
     url "https://github.com/dfribley/advent-of-code-leaderboard/releases/download/v1.2.4/aoclb-osx-arm64.tar.gz"
-    sha256 "6b7634fb3049231eec3b9c66583e24ce094f5c062fb069d4684f488917d90f13"
+    sha256 "477acc872d5642c28be0b7cc7a84468682cf08ec4186e627c24fe9ce7b625ff1"
   elsif OS.linux? && Hardware::CPU.intel?
     url "https://github.com/dfribley/advent-of-code-leaderboard/releases/download/v1.2.4/aoclb-linux-x64.tar.gz"
-    sha256 "bf76956c06ed6b9ea8356563b8ab22dd7c48a98c60645abea0c0287edc756a54"
+    sha256 "8e32df52036aa660790a38e5a424b6166a044b7028603650b0cde6b958aade75"
   else
     odie "Cannot install - Unexpected platform!"
   end
