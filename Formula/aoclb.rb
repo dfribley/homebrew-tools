@@ -5,14 +5,14 @@ class Aoclb < Formula
   homepage "https://github.com/dfribley/advent-of-code-leaderboard"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/dfribley/advent-of-code-leaderboard/releases/download/v1.2.4/aoclb-osx-x64.tar.gz"
-    sha256 "4abec85802dd74842040b876f17ba4420b4319967f0869354f6adbf6b52e9fcf"
+    url "https://github.com/dfribley/advent-of-code-leaderboard/releases/download/v1.2.5/aoclb-osx-x64.tar.gz"
+    sha256 "f7542f7ed47179f55607063fd8a58192d5168f1acc1c54fb899e4d3ac5088e9f"
   elsif OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/dfribley/advent-of-code-leaderboard/releases/download/v1.2.4/aoclb-osx-arm64.tar.gz"
-    sha256 "477acc872d5642c28be0b7cc7a84468682cf08ec4186e627c24fe9ce7b625ff1"
+    url "https://github.com/dfribley/advent-of-code-leaderboard/releases/download/v1.2.5/aoclb-osx-arm64.tar.gz"
+    sha256 "86c1444993320730c8d49b3dc125a835ec346b2212831e91026488348b8d38ad"
   elsif OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/dfribley/advent-of-code-leaderboard/releases/download/v1.2.4/aoclb-linux-x64.tar.gz"
-    sha256 "8e32df52036aa660790a38e5a424b6166a044b7028603650b0cde6b958aade75"
+    url "https://github.com/dfribley/advent-of-code-leaderboard/releases/download/v1.2.5/aoclb-linux-x64.tar.gz"
+    sha256 "862928fca060a3b42f0327c0f857779528741f09feeca0e7d481c262c500d9cb"
   else
     odie "Cannot install - Unexpected platform!"
   end
