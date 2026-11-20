@@ -1,17 +1,16 @@
 class Aoclb < Formula
   desc "Advent of Code Leaderboard CLI"
   homepage "https://github.com/dfribley/advent-of-code-leaderboard"
-  version "1.1.1"
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/dfribley/advent-of-code-leaderboard/releases/download/v1.1.1/aoclb-osx-x64.tar.gz"
-    sha256 "fcce46a83989ae41b36b5e19ea539f036e095ba45cbbc21eddf3719ab03dc05a"
+    url "https://github.com/dfribley/advent-of-code-leaderboard/releases/download/v1.2.0/aoclb-osx-x64.tar.gz"
+    sha256 "7b2fc976a78b2d5b9c846790b0f62c2ac779da2fc0e1a3b9cc455113944e8dae"
   elsif OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/dfribley/advent-of-code-leaderboard/releases/download/v1.1.1/aoclb-osx-arm64.tar.gz"
-    sha256 "1137e05b3581ecfafc14b74676d05bc5b39979a09dd85248214270cfefadb013"
+    url "https://github.com/dfribley/advent-of-code-leaderboard/releases/download/v1.2.0/aoclb-osx-arm64.tar.gz"
+    sha256 "32767ed4d4463e5895f1c187e1304e812a19b08a60df4725a866b2afaff55684"
   elsif OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/dfribley/advent-of-code-leaderboard/releases/download/v1.1.1/aoclb-linux-x64.tar.gz"
-    sha256 "b6b115d96e09e4a01a0a09a6e056c95acf7fbba14f5a4a6d0ddf28c94d46ccd7"
+    url "https://github.com/dfribley/advent-of-code-leaderboard/releases/download/v1.2.0/aoclb-linux-x64.tar.gz"
+    sha256 "329a15f3597c346a1ef9e343e30c826944ad6d352a471342f02fa6e938a28f37"
   else
     odie "Cannot install - Unexpected platform!"
   end
